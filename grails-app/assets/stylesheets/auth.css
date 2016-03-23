@@ -1,0 +1,152 @@
+.login_message {
+	color: red;
+}
+/* ================================================================================*/
+
+#loginFranjaVerde{
+	height: 100px;
+	background-color: #93c94e;
+}
+
+.separadorVertical{
+	height: 10px;
+}
+
+/* #loginLogoBlanco{ */
+	
+/* } */
+
+/* .responsive-container { */
+/* /*   margin: 1em auto; */ */
+/*   min-width: 200px;       cap container min width */
+/*   max-width: 500px;       cap container max width */
+/*   position: relative;      */
+/*   overflow: hidden;       crop if image is larger than container */
+/*   background-color: #93c94e;  */
+/* } */
+
+
+/* .responsive-container:before { */
+/*   content: "";            using pseudo element for 1:1 ratio */
+/*   display: block; */
+/*   padding-top: 100%; */
+/* } */
+/* .responsive-container img { */
+/*   position: absolute; */
+/*   top: -999px;            use sufficiently large number */
+/*   bottom: -999px; */
+/*   left: -999px; */
+/*   right: -999px; */
+/*   margin: auto;           center horizontally and vertically */
+/* } */
+
+
+#loginTitulo{
+	height: 100%;
+	margin: auto;
+}
+
+
+/* .ionic .card .item, .ionic .list-inset .item, .ionic .padding > .list .item, .ionic .padding-horizontal > .list .item { */
+/*     margin-right: 0px; */
+/*     margin-left: 0px; */
+/* } */
+
+/* .ionic .item-input { */
+/*     display: flex; */
+/*     align-items: center; */
+/*     position: relative; */
+/*     overflow: hidden; */
+/*     padding: 6px 0px 5px 16px; */
+/* } */
+
+
+/* .ionic .placeholder-icon:first-child { */
+/*     padding-right: 6px; } */
+/*   .ionic .placeholder-icon:last-child { */
+/*     padding-left: 6px; } */
+/*   .ionic .item-stacked-label { */
+/*     display: block; */
+/*     background-color: transparent; */
+/*     box-shadow: none; } */
+
+/*  .ionic .ion-search:before { */
+/*     content: ""; } */
+
+/* .ionic .ion-search::before{ */
+/* 	display: inline-block; */
+/* 	font-family: "Ionicons"; */
+/* 	font-style: normal; */
+/* 	font-weight: normal; */
+/* 	font-variant: normal; */
+/* 	text-transform: none; */
+/* 	text-rendering: auto; */
+/* 	line-height: 1; */
+/* } */
+
+
+/* .ionic .item { */
+/*     border-color: #DDD; */
+/*     background-color: #FFF; */
+/*     color: #444; */
+/*     position: relative; */
+/*     z-index: 2; */
+/*     display: block; */
+/*     margin: -1px; */
+/*     padding: 16px; */
+/*     border-width: 1px; */
+/*     border-style: solid; */
+/*     font-size: 16px; */
+/* } */
+
+
+.icon-ph {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    min-width: 16px;
+    padding: 8px 8px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: center;
+    text-shadow: 0 1px 0 #ffffff;
+/*     background-color: #eeeeee; 
+    left:3px;*/
+    position:absolute;
+    top:3px;
+    bottom:3px;
+    z-index:3;
+  }
+  
+  
+.custom-text {
+    padding:10px 10px 10px 30px ;
+    border: 1px solid #F2F2F2;
+}
+.input-container {
+  position:relative;
+}
+
+
+/* ================================================================================*/
+.login {
+	background-color: #F1F1F1;
+	margin-bottom: 15px;
+	overflow: hidden;
+	width: 310px;
+}
+
+.login-inner {
+	color: #9B9B9B;
+	padding: 16px;
+	background-color: #ffffff;
+}
+
+.login-inner .sign-in h1 {
+	color: #9B9B9B;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding-bottom: 0;
+}
