@@ -77,6 +77,7 @@ the explicit tags above and edit those, not the taglib code.
 					<ul>
 						<li><g:link controller="user" action='search'><g:message code="spring.security.ui.search"/></g:link></li>
 						<li><g:link controller="user" action='create'><g:message code="spring.security.ui.create"/></g:link></li>
+<%--						<li><g:link controller="user" action='edit'><g:message code="spring.security.ui.edit"/></g:link></li>--%>
 					</ul>
 				</li>
 				<li><a class="accessible"><g:message code="spring.security.ui.menu.roles"/></a>

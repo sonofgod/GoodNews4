@@ -24,7 +24,9 @@
 			</tr>
 			<tr><td colspan='2'>&nbsp;</td></tr>
 			<tr>
-				<td colspan='2'><s2ui:submitButton elementId='search' form='roleSearchForm' messageCode='spring.security.ui.search'/></td>
+				<td colspan='2'>
+				<s2ui:submitButton elementId='search' form='roleSearchForm' 
+				messageCode='spring.security.ui.search'/></td>
 			</tr>
 			</tbody>
 		</table>

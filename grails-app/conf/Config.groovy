@@ -103,6 +103,9 @@ log4j.main = {
     //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
     //}
 
+	debug 'org.hibernate.SQL'
+	trace 'org.hibernate.type'
+	
     error  'org.codehaus.groovy.grails.web.servlet',        // controllers
            'org.codehaus.groovy.grails.web.pages',          // GSP
            'org.codehaus.groovy.grails.web.sitemesh',       // layouts
@@ -150,7 +153,9 @@ grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	'/securityInfo/**': ['ROLE_ADMIN'],
 	'/registationCode/**':['ROLE_ADMIN'],
 	'/index':           ['ROLE_ADMIN'],
-	'/index.gsp':       ['ROLE_ADMIN']
+	'/index.gsp':       ['ROLE_ADMIN'],
+	'/empleadoBase/**': ['ROLE_ADMIN'],
+	'/departamento/**': ['ROLE_ADMIN']
 ]
 
 
